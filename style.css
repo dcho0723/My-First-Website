@@ -1,10 +1,35 @@
-.plus{
-    background-image: url("https://i.kym-cdn.com/photos/images/original/000/217/040/48ACD.png");
-    background-repeat:no-repeat;
+#dog {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 12px;
 }
 
-.plus.minus{
-    background-image: url("https://cdn0.iconfinder.com/data/icons/ie_Bright/128/plus_add_minus.png");
-
-    background-repeat:no-repeat;
+#patrick {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 12px;
 }
+
+/* #alex {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5px;
+} */
+
+.column {
+    float: left;
+    width: 45%;
+    padding: 10px;
+
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
