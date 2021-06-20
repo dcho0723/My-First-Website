@@ -19,7 +19,7 @@ h1 {
     text-align: center;
 }
 
-h2 {
+h2 { 
     text-align: center;
 }
 
@@ -31,22 +31,14 @@ div p{
     text-align: center;
 }
 
-/* div .bouldering{
+.bouldering .title{
     text-align: center;
-} */
-
-/* #alex {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 5px;
-} */
+}
 
 .column {
     float: left;
     width: 45%;
     padding: 10px;
-
   }
 
 .row::after {
@@ -54,4 +46,38 @@ div p{
     clear: both;
     display: table;
   }
-  
+
+.meClimbing {
+    width: 56.5%;
+} 
+
+iframe {
+    display: block;
+    margin: auto
+}
+
+#bottom {
+    background-color: #2f2f2f;
+    padding: 50px 50px;
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.column1 {
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.column2 {
+    margin-left: 150px;
+    margin-top: 50px;
+    text-align: center;
+}
