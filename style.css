@@ -14,6 +14,27 @@
     border-radius: 12px;
 }
 
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+div p{
+    text-align: center;
+}
+
+/* div .bouldering{
+    text-align: center;
+} */
+
 /* #alex {
     display: block;
     margin-left: auto;
