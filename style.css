@@ -5,15 +5,7 @@ body {
     height: 100%;
     margin: 0;
 }
-#dog {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-    border-radius: 12px;
-}
-
-#patrick {
+#imgClickAndChange {
     display: block;
     margin-left: auto;
     margin-right: auto;
