@@ -61,10 +61,7 @@ div p{
     margin-right: auto;
   } 
 
-.column img{
-    width: 60%;
-    position:relative;
-} 
+
 
 .row::after {
     content: "";
@@ -72,8 +69,15 @@ div p{
     display: table;
   }
 
-.meClimbing {
+
+.column .alex {
+    border-radius: 10px;
+    margin-left: 150px;
+}
+
+.column .meClimbing {
     width: 56.5%;
+    margin-left: 150px;
 } 
 
 iframe {
@@ -84,4 +88,12 @@ iframe {
 #bottom {
     text-align: center;
     background-color: #808080;
+    padding: 10px 0 40px 0;
+}
+
+button {
+    margin-bottom: 20px;
+    background-color:deepskyblue;
+    border-radius: 10px;
+    border: white;
 }
