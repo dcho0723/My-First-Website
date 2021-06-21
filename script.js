@@ -10,13 +10,16 @@ addingEventListener();
 
 function changeImage() {
 
-    if (document.getElementById("imgClickAndChange").src == "https://www.memesmonkey.com/images/memesmonkey/1d/1d3f97f6e5ca061b97074bb68063a76e.jpeg") 
+    if (document.getElementById("imgClickAndChange").src == "https://i.ibb.co/7WjLWBD/Screen-Shot-2021-06-21-at-12-38-23-AM.png") 
         {
             document.getElementById("imgClickAndChange").src = "https://i.kym-cdn.com/photos/images/original/000/217/040/48ACD.png";
         }
     else 
         {
-            document.getElementById("imgClickAndChange").src = "https://www.memesmonkey.com/images/memesmonkey/1d/1d3f97f6e5ca061b97074bb68063a76e.jpeg";
+            document.getElementById("imgClickAndChange").src = "https://i.ibb.co/7WjLWBD/Screen-Shot-2021-06-21-at-12-38-23-AM.png";
         }
     }
 changeImage();
+
+
+{/* <a href="https://ibb.co/cFkVFR9"><img src="https://i.ibb.co/7WjLWBD/Screen-Shot-2021-06-21-at-12-38-23-AM.png" alt="Screen-Shot-2021-06-21-at-12-38-23-AM" border="0"></a> */}
